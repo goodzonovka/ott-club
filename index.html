@@ -1,0 +1,548 @@
+<!doctype html>
+<html lang="en">
+    <head>
+    <meta charset="UTF-8">
+    <meta name="viewport"
+          content="width=device-width, user-scalable=no, initial-scale=1.0, maximum-scale=1.0, minimum-scale=1.0">
+    <meta http-equiv="X-UA-Compatible" content="ie=edge">
+    <link href="https://fonts.googleapis.com/css2?family=Inter:wght@400;500;600&display=swap&_v=20230815104851" rel="stylesheet">
+    <link rel="stylesheet" href="css/style.min.css?_v=20230815104851">
+    <title>OTT CLUB!</title>
+</head>
+<body>
+    <div class="wrapper">
+        <header class="header">
+    <div class="container">
+        <div class="header__inner">
+            <a href="/" class="header__logo">
+                <picture><source srcset="img/logo.webp" type="image/webp"><img src="img/logo.png" width="96" height="96" alt="OTT CLUB!"></picture>
+            </a>
+
+            <div class="header__right">
+                <div class="header__social">
+                    <a href="#fb" target="_blank" rel="nofollow">
+                        <svg width="24" height="24">
+                            <use href="./img/icons/icons.svg#fb"></use>
+                        </svg>
+                    </a>
+                    <a href="#telegram" target="_blank" rel="nofollow">
+                        <svg width="24" height="24">
+                            <use href="./img/icons/icons.svg#telegram"></use>
+                        </svg>
+                    </a>
+                </div>
+                <div class="header__buttons">
+                    <a href="#registration" class="registration">Регистрация</a>
+                    <button class="btn">Войти</button>
+                </div>
+            </div>
+        </div>
+    </div>
+</header>
+        <main>
+            <section class="banner">
+                <div class="container">
+                    <div class="banner__inner">
+
+                        <div class="banner__content">
+                            <h1>Более 270 телеканалов<br> в прямом эфире</h1>
+                            <picture><source srcset="img/banner-mobile.webp" type="image/webp"><img src="img/banner-mobile.png" class="banner__mobile" alt=""></picture>
+                            <div class="text">
+                                <p>Национальные, познавательные, детские, кино, спортивные, новостные и многие другие каналы</p>
+                            </div>
+                            <button class="btn btn-red">Протестировать 7 дней бесплатно</button>
+                        </div>
+
+                        <div class="banner__img">
+                            <picture><source srcset="img/banner.webp" type="image/webp"><img src="img/banner.png" width="998" height="669" alt=""></picture>
+                        </div>
+
+                    </div>
+                </div>
+            </section>
+
+            <div class="advantages">
+                <div class="container">
+                    <div class="advantages__inner">
+                        <div class="advantages__item">
+                            <div class="advantages__img">
+                                <svg width="96" height="96">
+                                    <use href="./img/icons/icons.svg#gift"></use>
+                                </svg>
+                            </div>
+                            <h3 class="advantages__title">Бесплатный тест</h3>
+                            <div class="advantages__text text">7 дней бесплатного тестового просмотра</div>
+                        </div>
+
+                        <div class="advantages__item">
+                            <div class="advantages__img">
+                                <svg width="96" height="96">
+                                    <use href="./img/icons/icons.svg#device-desktop"></use>
+                                </svg>
+                            </div>
+                            <h3 class="advantages__title">5 устройств = 1 подписка</h3>
+                            <div class="advantages__text text">Подключайте 5 устройств<br> в одной подписке</div>
+                        </div>
+
+                        <div class="advantages__item">
+                            <div class="advantages__img">
+                                <svg width="96" height="96">
+                                    <use href="./img/icons/icons.svg#tv"></use>
+                                </svg>
+                            </div>
+                            <h3 class="advantages__title">Архив трансляций</h3>
+                            <div class="advantages__text text">Смотрите 7 дней телеэфира<br> в записи</div>
+                        </div>
+
+                        <div class="advantages__item">
+                            <div class="advantages__img">
+                                <svg width="96" height="96">
+                                    <use href="./img/icons/icons.svg#planet-earth"></use>
+                                </svg>
+                            </div>
+                            <h3 class="advantages__title">Без привязки к месту</h3>
+                            <div class="advantages__text text">Смотрите любимые фильмы и передачи в любой точке мира</div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+
+            <div class="tariff">
+                <div class="container">
+                    <div class="tariff__border">
+                        <div class="tariff__bg">
+                            <div class="tariff__top">
+                                <div class="tariff__price">
+                                    <div><span class="price">1€</span> <span class="month">/ МЕСЯЦ</span></div>
+                                    <div class="text">Покупая подписку<br> более, чем на 6 месяцев</div>
+                                </div>
+                                <ul class="tariff__list">
+                                    <li>Более 270 каналов</li>
+                                    <li>127 FullHD каналов</li>
+                                    <li>Режим Ultra TV Sport</li>
+                                    <li><span class="desktop">Архив каналов</span> <span class="mobile">7 дней архива каналов</span></li>
+                                    <li>5 устройств <span class="mobile">= 1 подписка</span></li>
+                                </ul>
+                            </div>
+                            <form class="tariff-form" onsubmit="return false">
+                                <input type="email" class="tariff-form__input" placeholder="Email">
+                                <button class="btn btn-red tariff-form__btn">Подключить тариф</button>
+                            </form>
+                        </div>
+                    </div>
+                </div>
+            </div>
+
+            <section class="tv-channels">
+                <div class="container">
+                    <h2><span>ТВ - каналы</span></h2>
+                    <div class="text">Национальные, познавательные, детские, кино, спортивные, новостные и многие другие телеканалы</div>
+
+                    <div class="tabs-wrap">
+                        <div class="tabs">
+                            <button class="btn tabs__item active" data-target="#tabs-content-1">Популярные</button>
+                            <button class="btn tabs__item" data-target="#tabs-content-2">Национальные</button>
+                            <button class="btn tabs__item" data-target="#tabs-content-3">Познавательные</button>
+                            <button class="btn tabs__item" data-target="#tabs-content-4">Кино</button>
+                            <button class="btn tabs__item" data-target="#tabs-content-5">Спорт</button>
+                            <button class="btn tabs__item" data-target="#tabs-content-6">Детские</button>
+                            <button class="btn tabs__item" data-target="#tabs-content-7">Музыкальные</button>
+                            <button class="btn tabs__item" data-target="#tabs-content-8">Новостные</button>
+                        </div>
+                        <div class="tabs-content">
+                            <div class="tabs-content__item active" id="tabs-content-1">
+                                <div class="channels">
+                                    <div class="channel gradient-red">
+                                        <picture><source srcset="img/tv-channels/channel-1.webp" type="image/webp"><img src="img/tv-channels/channel-1.png" width="174" height="98" alt=""></picture>
+                                    </div>
+
+                                    <div class="channel gradient-blue">
+                                        <picture><source srcset="img/tv-channels/channel-2.webp" type="image/webp"><img src="img/tv-channels/channel-2.png" width="174" height="98" alt=""></picture>
+                                    </div>
+
+                                    <div class="channel gradient-green">
+                                        <picture><source srcset="img/tv-channels/channel-3.webp" type="image/webp"><img src="img/tv-channels/channel-3.png" width="174" height="98" alt=""></picture>
+                                    </div>
+
+                                    <div class="channel gradient-purple">
+                                        <picture><source srcset="img/tv-channels/channel-4.webp" type="image/webp"><img src="img/tv-channels/channel-4.png" width="174" height="98" alt=""></picture>
+                                    </div>
+
+                                    <div class="channel gradient-orange">
+                                        <picture><source srcset="img/tv-channels/channel-5.webp" type="image/webp"><img src="img/tv-channels/channel-5.png" width="174" height="98" alt=""></picture>
+                                    </div>
+
+                                    <div class="channel gradient-blue">
+                                        <picture><source srcset="img/tv-channels/channel-6.webp" type="image/webp"><img src="img/tv-channels/channel-6.png" width="174" height="98" alt=""></picture>
+                                    </div>
+
+                                    <div class="channel gradient-green">
+                                        <picture><source srcset="img/tv-channels/channel-7.webp" type="image/webp"><img src="img/tv-channels/channel-7.png" width="174" height="98" alt=""></picture>
+                                    </div>
+
+                                    <div class="channel gradient-purple">
+                                        <picture><source srcset="img/tv-channels/channel-8.webp" type="image/webp"><img src="img/tv-channels/channel-8.png" width="174" height="98" alt=""></picture>
+                                    </div>
+
+                                    <div class="channel gradient-green">
+                                        <picture><source srcset="img/tv-channels/channel-9.webp" type="image/webp"><img src="img/tv-channels/channel-9.png" width="174" height="98" alt=""></picture>
+                                    </div>
+
+                                    <div class="channel gradient-purple">
+                                        <picture><source srcset="img/tv-channels/channel-10.webp" type="image/webp"><img src="img/tv-channels/channel-10.png" width="174" height="98" alt=""></picture>
+                                    </div>
+
+                                    <div class="channel gradient-red">
+                                        <picture><source srcset="img/tv-channels/channel-1.webp" type="image/webp"><img src="img/tv-channels/channel-1.png" width="174" height="98" alt=""></picture>
+                                    </div>
+
+                                    <div class="channel gradient-blue">
+                                        <picture><source srcset="img/tv-channels/channel-2.webp" type="image/webp"><img src="img/tv-channels/channel-2.png" width="174" height="98" alt=""></picture>
+                                    </div>
+
+                                    <div class="channel gradient-green">
+                                        <picture><source srcset="img/tv-channels/channel-3.webp" type="image/webp"><img src="img/tv-channels/channel-3.png" width="174" height="98" alt=""></picture>
+                                    </div>
+
+                                    <div class="channel gradient-purple">
+                                        <picture><source srcset="img/tv-channels/channel-4.webp" type="image/webp"><img src="img/tv-channels/channel-4.png" width="174" height="98" alt=""></picture>
+                                    </div>
+
+                                    <div class="channel gradient-orange">
+                                        <picture><source srcset="img/tv-channels/channel-5.webp" type="image/webp"><img src="img/tv-channels/channel-5.png" width="174" height="98" alt=""></picture>
+                                    </div>
+                                </div>
+                                <div class="channels-show-more-wrap">
+                                    <button class="channels-show-more">
+                                        <span>Показать все</span>
+                                        <svg width="32" height="32">
+                                            <use href="./img/icons/icons.svg#arrow-down"></use>
+                                        </svg>
+                                    </button>
+                                </div>
+                            </div>
+
+                            <div class="tabs-content__item" id="tabs-content-2">
+                                <div class="channels">
+                                    <div class="channel gradient-red">
+                                        <picture><source srcset="img/tv-channels/channel-1.webp" type="image/webp"><img src="img/tv-channels/channel-1.png" width="174" height="98" alt=""></picture>
+                                    </div>
+
+                                    <div class="channel gradient-blue">
+                                        <picture><source srcset="img/tv-channels/channel-2.webp" type="image/webp"><img src="img/tv-channels/channel-2.png" width="174" height="98" alt=""></picture>
+                                    </div>
+
+                                    <div class="channel gradient-green">
+                                        <picture><source srcset="img/tv-channels/channel-3.webp" type="image/webp"><img src="img/tv-channels/channel-3.png" width="174" height="98" alt=""></picture>
+                                    </div>
+
+                                    <div class="channel gradient-purple">
+                                        <picture><source srcset="img/tv-channels/channel-4.webp" type="image/webp"><img src="img/tv-channels/channel-4.png" width="174" height="98" alt=""></picture>
+                                    </div>
+
+                                    <div class="channel gradient-orange">
+                                        <picture><source srcset="img/tv-channels/channel-5.webp" type="image/webp"><img src="img/tv-channels/channel-5.png" width="174" height="98" alt=""></picture>
+                                    </div>
+
+                                    <div class="channel gradient-red">
+                                        <picture><source srcset="img/tv-channels/channel-1.webp" type="image/webp"><img src="img/tv-channels/channel-1.png" width="174" height="98" alt=""></picture>
+                                    </div>
+
+                                    <div class="channel gradient-blue">
+                                        <picture><source srcset="img/tv-channels/channel-2.webp" type="image/webp"><img src="img/tv-channels/channel-2.png" width="174" height="98" alt=""></picture>
+                                    </div>
+
+                                    <div class="channel gradient-green">
+                                        <picture><source srcset="img/tv-channels/channel-3.webp" type="image/webp"><img src="img/tv-channels/channel-3.png" width="174" height="98" alt=""></picture>
+                                    </div>
+
+                                    <div class="channel gradient-purple">
+                                        <picture><source srcset="img/tv-channels/channel-4.webp" type="image/webp"><img src="img/tv-channels/channel-4.png" width="174" height="98" alt=""></picture>
+                                    </div>
+
+                                    <div class="channel gradient-orange">
+                                        <picture><source srcset="img/tv-channels/channel-5.webp" type="image/webp"><img src="img/tv-channels/channel-5.png" width="174" height="98" alt=""></picture>
+                                    </div>
+
+                                    <div class="channel gradient-red">
+                                        <picture><source srcset="img/tv-channels/channel-1.webp" type="image/webp"><img src="img/tv-channels/channel-1.png" width="174" height="98" alt=""></picture>
+                                    </div>
+
+                                    <div class="channel gradient-blue">
+                                        <picture><source srcset="img/tv-channels/channel-2.webp" type="image/webp"><img src="img/tv-channels/channel-2.png" width="174" height="98" alt=""></picture>
+                                    </div>
+
+                                    <div class="channel gradient-green">
+                                        <picture><source srcset="img/tv-channels/channel-3.webp" type="image/webp"><img src="img/tv-channels/channel-3.png" width="174" height="98" alt=""></picture>
+                                    </div>
+                                </div>
+
+                                <div class="channels-show-more-wrap">
+                                    <button class="channels-show-more">
+                                        <span>Показать все</span>
+                                        <svg width="32" height="32">
+                                            <use href="./img/icons/icons.svg#arrow-down"></use>
+                                        </svg>
+                                    </button>
+                                </div>
+                            </div>
+
+                            <div class="tabs-content__item" id="tabs-content-3">
+                                <div class="channels">
+                                    <div class="channel gradient-purple">
+                                        <picture><source srcset="img/tv-channels/channel-4.webp" type="image/webp"><img src="img/tv-channels/channel-4.png" width="174" height="98" alt=""></picture>
+                                    </div>
+
+                                    <div class="channel gradient-orange">
+                                        <picture><source srcset="img/tv-channels/channel-5.webp" type="image/webp"><img src="img/tv-channels/channel-5.png" width="174" height="98" alt=""></picture>
+                                    </div>
+                                </div>
+                            </div>
+
+
+                            <div class="tabs-content__item" id="tabs-content-4">
+                                <div class="channels">
+                                    <div class="channel gradient-orange">
+                                        <picture><source srcset="img/tv-channels/channel-6.webp" type="image/webp"><img src="img/tv-channels/channel-6.png" width="174" height="98" alt=""></picture>
+                                    </div>
+                                </div>
+                            </div>
+
+                            <div class="tabs-content__item" id="tabs-content-5">
+                                <div class="channels">
+                                    <div class="channel gradient-orange">
+                                        <picture><source srcset="img/tv-channels/channel-7.webp" type="image/webp"><img src="img/tv-channels/channel-7.png" width="174" height="98" alt=""></picture>
+                                    </div>
+                                </div>
+                            </div>
+
+                            <div class="tabs-content__item" id="tabs-content-6">
+                                <div class="channels">
+                                    <div class="channel gradient-orange">
+                                        <picture><source srcset="img/tv-channels/channel-8.webp" type="image/webp"><img src="img/tv-channels/channel-8.png" width="174" height="98" alt=""></picture>
+                                    </div>
+                                </div>
+                            </div>
+
+                            <div class="tabs-content__item" id="tabs-content-7">
+                                <div class="channels">
+                                    <div class="channel gradient-orange">
+                                        <picture><source srcset="img/tv-channels/channel-10.webp" type="image/webp"><img src="img/tv-channels/channel-10.png" width="174" height="98" alt=""></picture>
+                                    </div>
+                                </div>
+                            </div>
+
+                            <div class="tabs-content__item" id="tabs-content-8">
+                                <div class="channels">
+                                    <div class="channel gradient-orange">
+                                        <picture><source srcset="img/tv-channels/channel-9.webp" type="image/webp"><img src="img/tv-channels/channel-9.png" width="174" height="98" alt=""></picture>
+                                    </div>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </section>
+
+            <section class="different-devices">
+                <div class="container">
+                    <div class="different-devices__inner">
+                        <div class="different-devices__content">
+                            <h2>Смотрите на разных устройствах</h2>
+                            <div class="text">Подключайте подписку FULL и смотрите любимые каналы<br>
+                                на 5 устройствах, среди которых: телевизор, компьютер, планшет<br>
+                                или смартфон</div>
+                            <button class="btn btn-red">Протестировать 7 дней бесплатно</button>
+                        </div>
+
+                        <div class="different-devices__video" data-fancybox data-src="https://youtu.be/0J3vgcE5i2o">
+                            <picture><source srcset="img/devices-375.webp" type="image/webp"><img src="img/devices-375.png" class="mobile" alt=""></picture>
+                        </div>
+                    </div>
+
+                    <div class="different-devices__list">
+                        <picture><source srcset="img/devices/lg.webp" type="image/webp"><img src="img/devices/lg.png" width="267" height="35" alt=""></picture>
+                        <picture><source srcset="img/devices/ios.webp" type="image/webp"><img src="img/devices/ios.png" width="103" height="40" alt=""></picture>
+                        <picture><source srcset="img/devices/android.webp" type="image/webp"><img src="img/devices/android.png" width="233" height="40" alt=""></picture>
+                        <picture><source srcset="img/devices/samsung.webp" type="image/webp"><img src="img/devices/samsung.png" width="276" height="46" alt=""></picture>
+                    </div>
+                </div>
+            </section>
+
+            <section class="popular-questions">
+                <div class="container">
+                    <h2>Популярные вопросы</h2>
+
+                    <div class="popular-questions__inner">
+                        <div>
+                            <div class="popular-questions__item">
+                                <div class="popular-questions__title">
+                                    Как подключить подписку OTTCLUB или продлить ее?
+                                    <svg width="32" height="32">
+                                        <use href="./img/icons/icons.svg#arrow-down-white"></use>
+                                    </svg>
+                                </div>
+
+                                <div class="popular-questions__content text">
+                                    <p>Какая необходима скорость соединения для стабильного просмотра каналов?
+                                        Какая необходима скорость соединения для стабильного просмотра каналов? </p>
+                                </div>
+                            </div>
+
+                            <div class="popular-questions__item">
+                                <div class="popular-questions__title">
+                                    Как смотреть одновременно на разных устройствах?
+                                    <svg width="32" height="32">
+                                        <use href="./img/icons/icons.svg#arrow-down-white"></use>
+                                    </svg>
+                                </div>
+
+                                <div class="popular-questions__content text">
+                                    <p>Какая необходима скорость соединения для стабильного просмотра каналов?
+                                        Какая необходима скорость соединения для стабильного просмотра каналов? </p>
+                                </div>
+                            </div>
+
+                            <div class="popular-questions__item">
+                            <div class="popular-questions__title">
+                                Какая скорость соединения необходима для просмотра каналов?
+                                <svg width="32" height="32">
+                                    <use href="./img/icons/icons.svg#arrow-down-white"></use>
+                                </svg>
+                            </div>
+
+                            <div class="popular-questions__content text">
+                                <p>Какая необходима скорость соединения для стабильного просмотра каналов?
+                                    Какая необходима скорость соединения для стабильного просмотра каналов? </p>
+                            </div>
+                        </div>
+                        </div>
+
+                        <div>
+                            <div class="popular-questions__item">
+                                <div class="popular-questions__title">
+                                    Как смотреть на телевизоре Samsung?
+                                    <svg width="32" height="32">
+                                        <use href="./img/icons/icons.svg#arrow-down-white"></use>
+                                    </svg>
+                                </div>
+
+                                <div class="popular-questions__content text">
+                                    <p>Какая необходима скорость соединения для стабильного просмотра каналов?
+                                        Какая необходима скорость соединения для стабильного просмотра каналов? </p>
+                                </div>
+                            </div>
+
+                            <div class="popular-questions__item">
+                                <div class="popular-questions__title">
+                                    Как посмотреть передачу, которая была в эфире ранее?
+                                    <svg width="32" height="32">
+                                        <use href="./img/icons/icons.svg#arrow-down-white"></use>
+                                    </svg>
+                                </div>
+
+                                <div class="popular-questions__content text">
+                                    <p>Какая необходима скорость соединения для стабильного просмотра каналов?
+                                        Какая необходима скорость соединения для стабильного просмотра каналов? </p>
+                                </div>
+                            </div>
+
+                            <div class="popular-questions__item">
+                            <div class="popular-questions__title">
+                                Как работает бесплатный тестовый период?
+                                <svg width="32" height="32">
+                                    <use href="./img/icons/icons.svg#arrow-down-white"></use>
+                                </svg>
+                            </div>
+
+                            <div class="popular-questions__content text">
+                                <p>Какая необходима скорость соединения для стабильного просмотра каналов?
+                                    Какая необходима скорость соединения для стабильного просмотра каналов? </p>
+                            </div>
+                        </div>
+                        </div>
+                    </div>
+                </div>
+            </section>
+        </main>
+        <footer class="footer">
+    <div class="container">
+        <div class="footer__inner">
+            <div class="footer__left">
+                <ul class="footer__menu">
+                    <li>
+                        <a href="#">О нас</a>
+                    </li>
+                    <li>
+                        <a href="#">Пользовательское<br> соглашение</a>
+                    </li>
+                    <li>
+                        <a href="#">Политика<br> конфиденциальности</a>
+                    </li>
+                    <li>
+                        <a href="#">ТВ-Каналам</a>
+                    </li>
+                </ul>
+
+                <ul class="footer__menu">
+                    <li>
+                        <a href="#">Проверка скорости</a>
+                    </li>
+                    <li>
+                        <a href="#">Правила оформления<br> подписки</a>
+                    </li>
+                </ul>
+            </div>
+
+            <div class="footer-contacts">
+                <div class="footer-contacts__help">
+                    <div class="title">Помощь</div>
+                    <ul>
+                        <li>
+                            <a href="tel:+442045772169">+442045772169 (Англия)</a>
+                        </li>
+                        <li>
+                            <a href="tel:+420255708953">+420255708953 (Европа)</a>
+                        </li>
+                        <li>
+                            <a href="tel:+97233751723">+97233751723 (Израиль)</a>
+                        </li>
+                        <li>
+                            <a href="mailto:support@ottclub.cc">support@ottclub.cc</a>
+                        </li>
+                    </ul>
+                </div>
+
+                <div class="footer-contacts__chat">
+                    <div class="title">Чат-поддержка</div>
+                    <div class="list">
+                        <a href="#" target="_blank" rel="nofollow">
+                            <picture><source srcset="img/whatsapp.webp" type="image/webp"><img src="img/whatsapp.png" width="40" height="40" alt=""></picture>
+                        </a>
+
+                        <a href="#" target="_blank" rel="nofollow">
+                            <picture><source srcset="img/telegram.webp" type="image/webp"><img src="img/telegram.png" width="40" height="40" alt=""></picture>
+                        </a>
+                    </div>
+                </div>
+            </div>
+        </div>
+        <div class="footer__payments">
+            <picture><source srcset="img/payments/visa.webp" type="image/webp"><img src="img/payments/visa.png" class="visa" width="84" height="40" alt=""></picture>
+            <picture><source srcset="img/payments/mc.webp" type="image/webp"><img src="img/payments/mc.png" class="mc" width="70" height="40" alt=""></picture>
+            <picture><source srcset="img/payments/free-kassa.webp" type="image/webp"><img src="img/payments/free-kassa.png" class="free-kassa" width="115" height="40" alt=""></picture>
+            <picture><source srcset="img/payments/paysera.webp" type="image/webp"><img src="img/payments/paysera.png" class="paysera" width="130" height="40" alt=""></picture>
+            <picture><source srcset="img/payments/sepa.webp" type="image/webp"><img src="img/payments/sepa.png" class="sepa" width="82" height="40" alt=""></picture>
+        </div>
+        <div class="footer__copyright text">
+            <span><span class="copyright-icon">&copy;</span> 2021-2022 COMPANY NAME <span class="ltd">LTD</span></span> <span>Company number 1221514</span>
+        </div>
+    </div>
+</footer>
+    </div>
+
+    <script src="js/jquery.min.js?_v=20230815104851"></script>
+    <script src="js/fancybox.umd.js?_v=20230815104851"></script>
+    <script src="js/app.min.js?_v=20230815104851"></script>
+</body>
+</html>
